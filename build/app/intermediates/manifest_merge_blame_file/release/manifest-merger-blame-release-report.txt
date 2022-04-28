@@ -1,0 +1,94 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.komi"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\Programming\Flutter\komi\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->D:\Programming\Flutter\komi\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Programming\Flutter\komi\android\app\src\main\AndroidManifest.xml:3:5-66
+11-->D:\Programming\Flutter\komi\android\app\src\main\AndroidManifest.xml:3:22-64
+12
+13    <application
+14        android:name="android.app.Application"
+14-->D:\Programming\Flutter\komi\android\app\src\main\AndroidManifest.xml:6:9-42
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.6.0] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\122df2e57d294d1a53db26bbc3b813c1\core-1.6.0\AndroidManifest.xml:24:18-86
+16        android:icon="@mipmap/ic_launcher"
+16-->D:\Programming\Flutter\komi\android\app\src\main\AndroidManifest.xml:7:9-43
+17        android:label="komi"
+17-->D:\Programming\Flutter\komi\android\app\src\main\AndroidManifest.xml:5:9-29
+18        android:usesCleartextTraffic="true" >
+18-->D:\Programming\Flutter\komi\android\app\src\main\AndroidManifest.xml:8:9-44
+19        <activity
+19-->D:\Programming\Flutter\komi\android\app\src\main\AndroidManifest.xml:9:9-29:20
+20            android:name="com.example.komi.MainActivity"
+20-->D:\Programming\Flutter\komi\android\app\src\main\AndroidManifest.xml:10:13-41
+21            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+21-->D:\Programming\Flutter\komi\android\app\src\main\AndroidManifest.xml:14:13-163
+22            android:exported="true"
+22-->D:\Programming\Flutter\komi\android\app\src\main\AndroidManifest.xml:11:13-36
+23            android:hardwareAccelerated="true"
+23-->D:\Programming\Flutter\komi\android\app\src\main\AndroidManifest.xml:15:13-47
+24            android:launchMode="singleTop"
+24-->D:\Programming\Flutter\komi\android\app\src\main\AndroidManifest.xml:12:13-43
+25            android:theme="@style/LaunchTheme"
+25-->D:\Programming\Flutter\komi\android\app\src\main\AndroidManifest.xml:13:13-47
+26            android:windowSoftInputMode="adjustResize" >
+26-->D:\Programming\Flutter\komi\android\app\src\main\AndroidManifest.xml:16:13-55
+27
+28            <!--
+29                 Specifies an Android theme to apply to this Activity as soon as
+30                 the Android process has started. This theme is visible to the user
+31                 while the Flutter UI initializes. After that, this theme continues
+32                 to determine the Window background behind the Flutter UI.
+33            -->
+34            <meta-data
+34-->D:\Programming\Flutter\komi\android\app\src\main\AndroidManifest.xml:21:13-24:17
+35                android:name="io.flutter.embedding.android.NormalTheme"
+35-->D:\Programming\Flutter\komi\android\app\src\main\AndroidManifest.xml:22:15-70
+36                android:resource="@style/NormalTheme" />
+36-->D:\Programming\Flutter\komi\android\app\src\main\AndroidManifest.xml:23:15-52
+37
+38            <intent-filter>
+38-->D:\Programming\Flutter\komi\android\app\src\main\AndroidManifest.xml:25:13-28:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->D:\Programming\Flutter\komi\android\app\src\main\AndroidManifest.xml:26:17-68
+39-->D:\Programming\Flutter\komi\android\app\src\main\AndroidManifest.xml:26:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->D:\Programming\Flutter\komi\android\app\src\main\AndroidManifest.xml:27:17-76
+41-->D:\Programming\Flutter\komi\android\app\src\main\AndroidManifest.xml:27:27-74
+42            </intent-filter>
+43        </activity>
+44        <!--
+45             Don't delete the meta-data below.
+46             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+47        -->
+48        <meta-data
+48-->D:\Programming\Flutter\komi\android\app\src\main\AndroidManifest.xml:32:9-34:33
+49            android:name="flutterEmbedding"
+49-->D:\Programming\Flutter\komi\android\app\src\main\AndroidManifest.xml:33:13-44
+50            android:value="2" />
+50-->D:\Programming\Flutter\komi\android\app\src\main\AndroidManifest.xml:34:13-30
+51
+52        <uses-library
+52-->[androidx.window:window:1.0.0-beta04] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+53            android:name="androidx.window.extensions"
+53-->[androidx.window:window:1.0.0-beta04] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+54            android:required="false" />
+54-->[androidx.window:window:1.0.0-beta04] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+55        <uses-library
+55-->[androidx.window:window:1.0.0-beta04] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+56            android:name="androidx.window.sidecar"
+56-->[androidx.window:window:1.0.0-beta04] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+57            android:required="false" />
+57-->[androidx.window:window:1.0.0-beta04] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+58    </application>
+59
+60</manifest>
