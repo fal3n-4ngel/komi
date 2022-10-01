@@ -1,8 +1,7 @@
 # Komi
    
    
-<img src="https://github.com/fal3n-4ngel/weatherapp-flutter/blob/main/screenshots/logo1.png" />
-<img align="left" src="https://github.com/fal3n-4ngel/weatherapp-flutter/blob/main/playstore.png" width="400" height="380" />
+
 
 ## About
  A simple anime details searching App.
