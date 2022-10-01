@@ -6,7 +6,7 @@
 
 
 ## About
- A simple anime details searching App.
+ A simple anime details searching app created using Flutter and Anilist Api. Basically just reads an anime name , fetches its data from anilist and then display then with images(corresponding title image)
  
 ## NB 
 ```markdown
