@@ -8,10 +8,11 @@
 ## About
  A simple anime details searching App.
 ## NB 
- Still in developement
- Known errors
- Slight lagging
- Not that good Ui
+
+- Still in developement
+-  Known errors
+-  Slight lagging
+-  Not that good Ui
  
 
 ## Stats
