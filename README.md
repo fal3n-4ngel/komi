@@ -1,5 +1,7 @@
 # Komi
-   
+
+<img align="left" src="https://github.com/fal3n-4ngel/komi/blob/main/assets/icons/playstore.png">
+
    
 
 
