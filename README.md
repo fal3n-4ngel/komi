@@ -22,7 +22,6 @@ Still in developement
 ```markdown
 ### 
   - Added new images ands
-  - Added execpetions for errors
   - Fixed the "null" value for details error (used postman api)
   - Used Anilit api 
 
