@@ -10,10 +10,11 @@
  
 ## NB 
 ```markdown
-- Still in developement
--  Known errors
--  Slight lagging
--  Not that good Ui
+Still in developement
+ Known errors
+- Animation smoothness(fixed it, too lazy to upload.)
+- slight lag
+- adding more screens and video player(Working on it)
  ```
 
 ## Stats
@@ -22,7 +23,7 @@
 ### 
   - Added new images ands
   - Added execpetions for errors
-  - Fixed the "null" value for details error
+  - Fixed the "null" value for details error (used postman api)
   - Used Anilit api 
 
 ```
